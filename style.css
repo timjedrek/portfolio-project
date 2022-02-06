@@ -6,7 +6,11 @@ h3 - subsection headers
 */
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.chinese-hanzi {
+    font-family:'Noto Sans SC';
 }
 
 ul.nobullets {
