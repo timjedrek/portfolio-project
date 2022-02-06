@@ -3,12 +3,16 @@ Notes:
 h1 - Hero landing page の Name
 H2 - section headers
 h3 - subsection headers
-h4 - menu 
-
 */
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.nobullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }
 
 .left-navigation {
@@ -42,3 +46,10 @@ body {
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 5px;}
+  }
