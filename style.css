@@ -64,6 +64,9 @@ a {
   color: #818181;
 }
 
+h1 {
+  font-size: 6rem;
+}
 .chinese-hanzi {
     font-family:'Noto Sans SC';
 }
