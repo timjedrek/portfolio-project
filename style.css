@@ -87,7 +87,9 @@ ul.nobullets {
     background: rgb(0,20,0);
     background: linear-gradient(21deg, rgba(0,20,0,1) 0%, rgba(17,17,17,1) 100%); 
     overflow-x: hidden; /* Disable horizontal scroll */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* The navigation menu links */
