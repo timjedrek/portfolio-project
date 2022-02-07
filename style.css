@@ -60,6 +60,10 @@ body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: #818181;
+}
+
 .chinese-hanzi {
     font-family:'Noto Sans SC';
 }
@@ -80,7 +84,7 @@ ul.nobullets {
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    color: white
+    color: #818181;
 }
 
 /* The navigation menu links */
@@ -88,17 +92,16 @@ ul.nobullets {
     padding: 10px 16px 10px 16px;
     text-decoration: none;
     font-size: 1em;
-    color: #818181;
     display: block;
   }
 
 /* When you mouse over the navigation links, change their color */
 .left-navigation a:hover {
-    color: #f1f1f1;
+    color: #00df00;
   }
 
 .active {
-    color: lime; 
+    color: #00ff00; 
     font-weight: 600;
   }
 
