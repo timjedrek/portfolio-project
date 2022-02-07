@@ -87,7 +87,7 @@ ul.nobullets {
     background: rgb(0,20,0);
     background: linear-gradient(21deg, rgba(0,20,0,1) 0%, rgba(17,17,17,1) 100%); 
     overflow-x: hidden; /* Disable horizontal scroll */
-    color: #818181;
+
 }
 
 /* The navigation menu links */
@@ -100,7 +100,7 @@ ul.nobullets {
 
 /* When you mouse over the navigation links, change their color */
 .left-navigation a:hover {
-    color: #00ff00;
+    color: #00CC00;
   }
 
 .active {
@@ -114,6 +114,10 @@ ul.nobullets {
     padding: 0;
     background: rgb(255,255,255);
     background: linear-gradient(125deg, rgba(255,255,255,1) 85%, rgba(223,255,223,1) 100%);
+}
+
+.main-container a {
+  color: #00aa00; 
 }
 
 .landing-container {
