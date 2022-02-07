@@ -84,7 +84,8 @@ ul.nobullets {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black */
+    background: rgb(0,20,0);
+    background: linear-gradient(21deg, rgba(0,20,0,1) 0%, rgba(17,17,17,1) 100%); 
     overflow-x: hidden; /* Disable horizontal scroll */
     color: #818181;
 }
@@ -99,11 +100,11 @@ ul.nobullets {
 
 /* When you mouse over the navigation links, change their color */
 .left-navigation a:hover {
-    color: #00dd00;
+    color: #00ff00;
   }
 
 .active {
-    color: #00ff00; 
+    color: #00aa00; 
     font-weight: 600;
   }
 
@@ -112,7 +113,7 @@ ul.nobullets {
     margin-left: 20rem; /* Same as the width of the sidebar */
     padding: 0;
     background: rgb(255,255,255);
-    background: linear-gradient(125deg, rgba(255,255,255,1) 64%, rgba(223,255,223,1) 100%); 
+    background: linear-gradient(125deg, rgba(255,255,255,1) 85%, rgba(223,255,223,1) 100%);
 }
 
 .landing-container {
