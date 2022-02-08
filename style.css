@@ -81,7 +81,7 @@ ul.nobullets {
 
 .left-navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 20vw; /* Set the width of the sidebar */
+    width: 23vw; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -92,6 +92,32 @@ ul.nobullets {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.chinese-name, .english-name {
+  color: white;
+  justify-content: center;
+}
+.chinese-name {
+  font-size: 3rem;
+}
+
+.english-name {
+  font-size: 2rem;
+}
+
+.section-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  height: 100%
 }
 
 /* The navigation menu links */
@@ -114,7 +140,7 @@ ul.nobullets {
 
 
 .main-container {
-    margin-left: 20vw; /* Same as the width of the sidebar */
+    margin-left: 23vw; /* Same as the width of the sidebar */
     padding: 0;
     background: rgb(240,253,240);
     background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
