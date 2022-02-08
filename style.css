@@ -79,7 +79,7 @@ ul.nobullets {
 
 .left-navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 20rem; /* Set the width of the sidebar */
+    width: 20vw; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -112,10 +112,10 @@ ul.nobullets {
 
 
 .main-container {
-    margin-left: 20rem; /* Same as the width of the sidebar */
+    margin-left: 20vw; /* Same as the width of the sidebar */
     padding: 0;
     background: rgb(255,255,255);
-    background: linear-gradient(125deg, rgba(255,255,255,1) 85%, rgba(223,255,223,1) 100%);
+    background: linear-gradient(125deg, rgba(255,255,255,1) 50%, rgb(240, 253, 240) 100%);
 }
 
 .main-container a {
@@ -124,8 +124,86 @@ ul.nobullets {
 
 .landing-container {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
+.landing-container-text {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-container-text-heading {
+  /*margin: 30vh 0vh 20vh 15vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.landing-container-text-heading-small{
+  margin-left: 3rem;
+}
+
+.landing-container-text-heading-big{
+  margin-left: 3rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.landing-container-text-subtext li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 5rem;
+}
+
+
+.download-cv {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10rem;
+}
+
+.download-cv {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.download-cv:hover {
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
+}
+
+.landing-container-picture {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.landing-container-picture-holder {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+
+}
+
+.landing-container-picture-holder img {
+  max-width: 100%;
+  max-height: 80vh;
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
 @media screen and (max-height: 450px) {
