@@ -295,6 +295,19 @@ ol>li {
   /*list-style-type:disc;*/
 }
 
+.other-subsection {
+  padding-left: 3rem;
+}
+
+.jaswa {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.jaswa>.other-subsection {
+  padding-left: 3.5rem;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
