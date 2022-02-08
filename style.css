@@ -116,8 +116,8 @@ ul.nobullets {
 .main-container {
     margin-left: 20vw; /* Same as the width of the sidebar */
     padding: 0;
-    background: rgb(255,255,255);
-    background: linear-gradient(125deg, rgba(255,255,255,1) 50%, rgb(240, 253, 240) 100%);
+    background: rgb(240,253,240);
+    background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
     padding-left: 3rem;
     padding-right: 3rem;
 }
