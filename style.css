@@ -272,11 +272,11 @@ h3 {
 }
 
 .date-time {
-  width: 30%;
+  width: 20%;
 }
 
 .date-text {
-  width: 70%;
+  width: 80%;
 }
 
 ol {
@@ -287,6 +287,12 @@ ol {
 ol>li {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.list-header-after{
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+  /*list-style-type:disc;*/
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
