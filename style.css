@@ -215,12 +215,12 @@ ul.nobullets {
 
 .header {
   width: 100%;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
