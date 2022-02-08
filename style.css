@@ -249,6 +249,21 @@ h3 {
   font-size: 2rem;
 }
 
+.date-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.date-time {
+  width: 30%;
+}
+
+.date-text {
+  width: 70%;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
