@@ -243,6 +243,16 @@ ul.nobullets {
   width: 100%;
   font-size: 3rem;
   text-align: center;
+  background-color: #00aa00;
+  color: white;
+  border-radius: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header-after {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h3 {
