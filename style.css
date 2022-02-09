@@ -58,7 +58,7 @@ h3 - subsection headers
 
 body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 a {
@@ -70,7 +70,7 @@ b {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .chinese-hanzi {
@@ -85,7 +85,7 @@ ul.nobullets {
 
 .left-navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 23vw; /* Set the width of the sidebar */
+    width: 28vw; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -128,7 +128,7 @@ ul.nobullets {
 .left-navigation a {
     padding: 10px 16px 10px 16px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1rem;
     display: block;
   }
 
@@ -144,7 +144,7 @@ ul.nobullets {
 
 
 .main-container {
-    margin-left: 23vw; /* Same as the width of the sidebar */
+    margin-left: 28vw; /* Same as the width of the sidebar */
     padding: 0;
     background: rgb(240,253,240);
     background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
@@ -164,7 +164,7 @@ ul.nobullets {
 }
 
 .landing-container-text {
-  width: 40vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,9 +175,6 @@ ul.nobullets {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.landing-container-text-heading-small{
 }
 
 .landing-container-text-heading-big{
@@ -205,7 +202,7 @@ ul.nobullets {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -245,10 +242,11 @@ ul.nobullets {
 
 .header {
   width: 100%;
-  font-size: 3rem;
-  text-align: center;
-  background-color: #00aa00;
-  color: white;
+  font-size: 2rem;
+  /*text-align: center;
+  background-color: #00aa00;*/
+  color: #00cc00;
+  font-weight: 800;
   border-radius: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -261,7 +259,13 @@ ul.nobullets {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+}
+
+li {
+  line-height: 1.5rem;
 }
 
 .date-row {
@@ -289,10 +293,13 @@ ol>li {
   padding-bottom: 1rem;
 }
 
+ul>li {
+  list-style-type:disc;
+}
+
 .list-header-after{
   padding-left: 3rem;
   padding-top: 0.5rem;
-  /*list-style-type:disc;*/
 }
 
 .other-subsection {
@@ -308,9 +315,33 @@ ol>li {
   padding-left: 3.5rem;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 5px;}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 800px){
+  .left-navigation {
+    display: none;
+    }
+
+  .main-container {
+    margin-left: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+    }
+
+  .landing-container {
+    flex-direction: column-reverse;
+    height: auto;
   }
-  */
+
+  .landing-container-text {
+    width: 100vw;
+  }
+
+  .landing-container-picture-holder {
+    width:fit-content;
+  }
+
+  }
+  
