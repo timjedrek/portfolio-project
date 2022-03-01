@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+Notes:
+h1 - Hero landing page の Name
+H2 - section headers
+h3 - subsection headers
+*/
+
+
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+a {
+  color: #818181;
+}
+
+b {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.chinese-hanzi {
+    font-family:'Noto Sans SC';
+}
+
+ul.nobullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.left-navigation {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 28vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: rgb(0,20,0);
+    background: linear-gradient(21deg, rgba(0,20,0,1) 0%, rgba(17,17,17,1) 100%); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.chinese-name, .english-name {
+  color: white;
+  justify-content: center;
+}
+.chinese-name {
+  font-size: 3rem;
+}
+
+.english-name {
+  font-size: 2rem;
+}
+
+.section-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  height: 100%
+}
+
+/* The navigation menu links */
+.left-navigation a {
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+  }
+
+/* When you mouse over the navigation links, change their color */
+.left-navigation a:hover {
+    color: #00CC00;
+  }
+
+.active {
+    color: #00aa00; 
+    font-weight: 600;
+  }
+
+
+.main-container {
+    margin-left: 28vw; /* Same as the width of the sidebar */
+    padding: 0;
+    background: rgb(240,253,240);
+    background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.main-container a {
+  color: #00aa00; 
+}
+
+.landing-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.landing-container-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-container-text-heading {
+  /*margin: 30vh 0vh 20vh 15vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.landing-container-text-heading-big{
+  flex-direction: row;
+  align-items: center;
+}
+
+.landing-container-text-subtext li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.download-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.download-cv-button {
+  background-color: #00aa00; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10rem;
+}
+
+.download-cv-button {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.download-cv-button:hover {
+  background-color: #00CC00; 
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
+}
+
+.landing-container-picture {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.landing-container-picture-holder {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+
+}
+
+.landing-container-picture-holder img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.header {
+  width: 100%;
+  font-size: 2rem;
+  /*text-align: center;
+  background-color: #00aa00;*/
+  color: #00cc00;
+  font-weight: 800;
+  border-radius: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header-after {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+}
+
+li {
+  line-height: 1.5rem;
+}
+
+.date-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.date-time {
+  width: 20%;
+}
+
+.date-text {
+  width: 80%;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 3rem;
+}
+
+ol>li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+ul>li {
+  list-style-type:disc;
+}
+
+.list-header-after{
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+}
+
+.other-subsection {
+  padding-left: 3rem;
+}
+
+.jaswa {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.jaswa>.other-subsection {
+  padding-left: 3.5rem;
+}
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 800px){
+  .left-navigation {
+    display: none;
+    }
+
+  .main-container {
+    margin-left: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+    }
+
+  .landing-container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .landing-container-text {
+    width: 100vw;
+  }
+
+  .landing-container-picture-holder {
+    width:fit-content;
+  }
+
+  }
+  
