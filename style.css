@@ -83,6 +83,18 @@ The content `<div>` is where all your content goes.
   color: #888;
 }
 
+ul.star {
+  position: relative;
+  list-style: none;
+	margin-left: 0;
+	padding-left: 2.5em;
+}
+ul.star li:before{
+  position: absolute;
+  content: "\2605";
+  left: 1.2em;
+}
+
 
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
