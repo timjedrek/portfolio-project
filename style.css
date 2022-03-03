@@ -36,6 +36,12 @@ This is the parent `<div>` that contains the menu and the content area.
   #layout.active .menu-link {
       left: 350px;
   }
+
+.main {
+  background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
+}
+
+
 /*
 The content `<div>` is where all your content goes.
 */
