@@ -37,11 +37,6 @@ This is the parent `<div>` that contains the menu and the content area.
       left: 350px;
   }
 
-.main {
-  background: linear-gradient(130deg, rgba(240,253,240,1) 0%, rgba(255,255,255,1) 35%, rgba(240,253,240,1) 100%);
-}
-
-
 /*
 The content `<div>` is where all your content goes.
 */
@@ -81,6 +76,11 @@ The content `<div>` is where all your content goes.
   margin: 50px 0 20px 0;
   font-weight: 300;
   color: #888;
+}
+
+/* books class made for list item sub items which were showing up as circles instead of discs in the manuscripts section*/
+ul.books li {
+  list-style: disc;
 }
 
 ul.star {
