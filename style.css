@@ -95,6 +95,10 @@ ul.star li:before{
   left: 1.2em;
 }
 
+ul.subdate {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
