@@ -24,3 +24,4 @@ Version 3:
 Version 4 (current version):
 * Initialized March 1, 2022<br>
 * Chose Pure CSS and used side bar layout provided<br>
+* Completed draft on March 4, 2022<br>
