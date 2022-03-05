@@ -31,3 +31,4 @@ Version 4 (current version):
 * JS script from version 3 used
 * Completed draft on March 4, 2022<br>
 * Deployed on March 5, 2022<br>
+* After deployment, repository has become obsolete.  Further updates to any files shall occur with hosted repository.
